@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydub
+soundfile
+numpy
+python-dotenv
+
+# For Kokoro TTS
+kokoro>=0.9.4
+soundfile
+torch --index-url https://download.pytorch.org/whl/cpu
+misaki[en]
+misaki[ja]
+misaki[zh]
+fugashi[unidic]
